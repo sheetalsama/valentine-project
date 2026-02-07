@@ -137,3 +137,13 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+#letter-title #small-letter {
+    display: block;          /* makes the span appear on a new line */
+    font-size: 16px;         /* smaller than h1 */
+    font-weight: normal;     /* regular weight, not bold like h1 */
+    color: black;          /* pink color */
+    margin-top: 8px;         /* space between h1 and small letter */
+    font-family: 'Arial', sans-serif; /* optional, nicer font */
+    text-align: center;      /* center below the main text */
+}
